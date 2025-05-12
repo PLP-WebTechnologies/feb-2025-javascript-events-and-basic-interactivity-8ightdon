@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Event Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎯 JS Event Assignment</h1>
+
+  <!-- Event Handling Section -->
+  <section>
+    <h2>1. Event Handling</h2>
+    <button id="clickBtn">Click Me</button>
+    <div id="hoverBox">Hover Over Me</div>
+    <input type="text" id="keyInput" placeholder="Type something..." />
+    <button id="dblClickBtn">Double Click Me</button>
+    <button id="longPressBtn">Long Press Me</button>
+  </section>
+
+  <!-- Interactive Elements Section -->
+  <section>
+    <h2>2. Interactive Elements</h2>
+    <button id="changeBtn">Change My Text & Color</button>
+
+    <!-- Image Gallery -->
+    <div class="gallery">
+      <img src="https://via.placeholder.com/150" alt="Image 1" />
+      <img src="https://via.placeholder.com/150/0000FF/808080" alt="Image 2" />
+      <img src="https://via.placeholder.com/150/FF0000/FFFFFF" alt="Image 3" />
+    </div>
+
+    <!-- Accordion -->
+    <button class="accordion">Section 1</button>
+    <div class="panel">
+      <p>Content for section 1.</p>
+    </div>
+    <button class="accordion">Section 2</button>
+    <div class="panel">
+      <p>Content for section 2.</p>
+    </div>
+  </section>
+
+  <!-- Form Validation Section -->
+  <section>
+    <h2>3. Form Validation</h2>
+    <form id="myForm">
+      <label>
+        Name:
+        <input type="text" id="name" required />
+        <span class="error" id="nameError"></span>
+      </label>
+      <br />
+      <label>
+        Email:
+        <input type="email" id="email" required />
+        <span class="error" id="emailError"></span>
+      </label>
+      <br />
+      <label>
+        Password:
+        <input type="password" id="password" required />
+        <span class="error" id="passwordError"></span>
+      </label>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #hoverBox {
+    width: 200px;
+    height: 50px;
+    background-color: lightgray;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .gallery img {
+    width: 150px;
+    margin: 5px;
+    transition: transform 0.3s;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Accordion Styles */
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  .accordion.active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .panel {
+    padding: 0 14px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  /* Error Message Styles */
+  .error {
+    color: red;
+    font-size: 0.9em;
+    margin-left: 10px;
+  }
+  
